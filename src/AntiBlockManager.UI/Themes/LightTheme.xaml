@@ -1,0 +1,30 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <!-- Основные цвета -->
+    <SolidColorBrush x:Key="BgMain" Color="#E0E0E0"/>
+    <SolidColorBrush x:Key="BgGradient" Color="Transparent"/>
+    <SolidColorBrush x:Key="OverlayBg" Color="#B0FFFFFF"/> <!-- Сильное БЕЛОЕ затемнение для светлой темы -->
+    <SolidColorBrush x:Key="SidebarBg" Color="#20FFFFFF"/>
+    
+    <!-- Стекло (Glassmorphism) -->
+    <SolidColorBrush x:Key="GlassBg" Color="#60FFFFFF"/> <!-- Более плотное белое стекло -->
+    <SolidColorBrush x:Key="GlassBorder" Color="#80000000"/> <!-- Темная окантовка для контраста -->
+    
+    <!-- Текст -->
+    <SolidColorBrush x:Key="TextMain" Color="#1A1A1A"/> <!-- Темный текст -->
+    <SolidColorBrush x:Key="TextMuted" Color="#60000000"/>
+    <SolidColorBrush x:Key="TextGlow" Color="#40000000"/>
+    
+    <!-- Элементы управления -->
+    <SolidColorBrush x:Key="Accent" Color="#2E7D32"/>
+    <SolidColorBrush x:Key="Success" Color="#2E7D32"/>
+    <SolidColorBrush x:Key="SurfaceLight" Color="#20000000"/>
+    
+    <!-- Поля ввода -->
+    <SolidColorBrush x:Key="InputBg" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="InputBorder" Color="#40000000"/>
+    <SolidColorBrush x:Key="ComboBg" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="ComboBorder" Color="#40000000"/>
+    <SolidColorBrush x:Key="LogBg" Color="#30FFFFFF"/>
+</ResourceDictionary>
